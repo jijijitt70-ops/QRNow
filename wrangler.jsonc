@@ -1,0 +1,7 @@
+wrangler.jsonc{
+  "name": "qrnow",
+  "compatibility_date": "2026-09-04",
+  "assets": {
+    "directory": "./"
+  }
+}

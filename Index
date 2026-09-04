@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>QR Fácil — Generador de códigos QR gratis</title>
+  <meta name="description" content="Crea códigos QR gratis para enlaces, textos, teléfonos, emails y WiFi. Sin registro.">
+
+  <link rel="stylesheet" href="style.css">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+</head>
+
+<body>
+
+<header>
+  <div class="container header-content">
+    <a href="#" class="logo">
+      <span>▦</span>
+      QR Fácil
+    </a>
+
+    <nav>
+      <a href="#generador">Generador</a>
+      <a href="#como-funciona">Cómo funciona</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+  </div>
+</header>
+
+
+<section class="hero">
+
+  <div class="container hero-content">
+
+    <div>
+
+      <div class="badge">100% GRATIS</div>
+
+      <h1>
+        Crea tu código QR
+        <span>en segundos.</span>
+      </h1>
+
+      <p>
+        Genera códigos QR para enlaces, textos, teléfonos,
+        emails y redes WiFi. Sin registro y directamente desde tu navegador.
+      </p>
+
+      <a href="#generador" class="hero-button">
+        Crear mi QR →
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<section id="generador" class="generator-section">
+
+  <div class="container">
+
+    <div class="section-title">
+
+      <div class="small-title">GENERADOR</div>
+
+      <h2>Crea tu código QR</h2>
+
+      <p>Introduce la información y personalízalo a tu gusto.</p>
+
+    </div>
+
+
+    <div class="generator-card">
+
+      <div class="controls">
+
+        <div class="input-group">
+
+          <label>Tipo de contenido</label>
+
+          <div class="type-buttons">
+
+            <button class="type-btn active" data-type="url">
+              🔗 Enlace
+            </button>
+
+            <button class="type-btn" data-type="text">
+              📝 Texto
+            </button>
+
+            <button class="type-btn" data-type="phone">
+              📞 Teléfono
+            </button>
+
+            <button class="type-btn" data-type="email">
+              ✉️ Email
+            </button>
+
+            <button class="type-btn" data-type="wifi">
+              📶 WiFi
+            </button>
+
+          </div>
+
+        </div>
+
+
+        <div class="input-group">
+
+          <label for="url-input">Enlace</label>
+
+          <input
+            id="url-input"
+            type="url"
+            placeholder="https://ejemplo.com"
+          >
+
+          <textarea
+            id="text-input"
+            class="hidden"
+            rows="4"
+            placeholder="Escribe tu texto..."
+          ></textarea>
+
+          <input
+            id="phone-input"
+            class="hidden"
+            type="tel
